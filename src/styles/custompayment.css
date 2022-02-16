@@ -1,0 +1,56 @@
+.CustomP {
+  width: 100%;
+  background-color: #f9fafb;
+}
+
+.Cherder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10%;
+}
+
+.Cherder > h2 {
+  font-size: 2.5vw;
+  color: #1939b7;
+}
+
+.Cherder > p {
+  text-align: center;
+  font-size: 1.5vw;
+  color: #637381;
+}
+
+.Element0 {
+  width: 50%;
+}
+
+@media screen and (max-width: 425px) {
+  .CustomP {
+    background-color: white;
+    background-image: url("../assets/backimage_2.jpg");
+    background-size: contain;
+  }
+  .Cherder {
+    margin: 0px;
+  }
+
+  .Cherder > h2 {
+    font-size: 1.125rem;
+    color: #1939b7;
+    margin: 5%;
+  }
+
+  .Cherder > p {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #637381;
+    margin: 0% 7% 7% 7%;
+  }
+
+  .Element0 {
+    margin-top: 3%;
+    width: 97%;
+  }
+}
